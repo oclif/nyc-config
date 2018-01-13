@@ -4,7 +4,7 @@
   "version": "0.0.3",
   "author": "Jeff Dickey",
   "devDependencies": {
-    "@dxcli/dev-semantic-release": "^0.0.2",
+    "@dxcli/dev-semantic-release": "^0.0.3",
     "husky": "^0.14.3"
   },
   "engines": {
