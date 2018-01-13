@@ -1,6 +1,9 @@
 {
-  "extensions": [
+  "extension": [
     ".ts"
+  ],
+  "include": [
+    "src/**/*.ts"
   ],
   "exclude": [
     "**/*.d.ts"
