@@ -11,7 +11,7 @@
     "node": ">=8.0.0"
   },
   "files": [
-    "/lib"
+    ".nycrc"
   ],
   "license": "MIT",
   "repository": "dxcli/dev-nyc-config",
