@@ -14,10 +14,10 @@
     "/lib"
   ],
   "license": "MIT",
-  "repository": "dxcli/dev-nyc-config",
   "main": "index.json",
+  "repository": "dxcli/dev-nyc-config",
   "scripts": {
-    "test": "echo NO TESTS",
-    "commitmsg": "dxcli-dev-commitmsg"
+    "commitmsg": "dxcli-dev-commitmsg",
+    "test": "echo NO TESTS"
   }
 }
