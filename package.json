@@ -14,7 +14,6 @@
     "/lib"
   ],
   "license": "MIT",
-  "main": "index.json",
   "repository": "dxcli/dev-nyc-config",
   "scripts": {
     "commitmsg": "dxcli-dev-commitmsg",
