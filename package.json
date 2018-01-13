@@ -1,7 +1,7 @@
 {
   "name": "@dxcli/dev-nyc-config",
   "description": "nyc config for dxcli components",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "Jeff Dickey",
   "devDependencies": {
     "@dxcli/dev-semantic-release": "^0.0.2",
