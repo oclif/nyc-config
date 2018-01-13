@@ -14,7 +14,7 @@
     "/lib"
   ],
   "license": "MIT",
-  "repository": "dxcli/nyc-config",
+  "repository": "dxcli/dev-nyc-config",
   "main": "index.json",
   "scripts": {
     "test": "echo NO TESTS",
