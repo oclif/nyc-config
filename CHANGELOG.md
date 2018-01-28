@@ -1,3 +1,11 @@
+<a name="0.0.4"></a>
+## [0.0.4](https://github.com/dxcli/nyc-config/compare/a85badc7413ba9d310f9ecb48d91b84ec038cc96...v0.0.4) (2018-01-28)
+
+
+### Bug Fixes
+
+* remove appveyor script for now ([645d18b](https://github.com/dxcli/nyc-config/commit/645d18b))
+
 <a name="0.0.3"></a>
 ## [0.0.3](https://github.com/dxcli/dev-nyc-config/compare/e69897592f0900305d0b3de41f65b990ef2072e6...v0.0.3) (2018-01-13)
 
