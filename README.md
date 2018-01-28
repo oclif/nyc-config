@@ -3,7 +3,6 @@
 
 [![Version](https://img.shields.io/npm/v/@dxcli/nyc-config.svg)](https://npmjs.org/package/@dxcli/nyc-config)
 [![CircleCI](https://circleci.com/gh/dxcli/nyc-config/tree/master.svg?style=svg)](https://circleci.com/gh/dxcli/nyc-config/tree/master)
-[![Appveyor CI](https://ci.appveyor.com/api/projects/status/github/dxcli/nyc-config?branch=master&svg=true)](https://ci.appveyor.com/project/heroku/nyc-config/branch/master)
 [![Codecov](https://codecov.io/gh/dxcli/nyc-config/branch/master/graph/badge.svg)](https://codecov.io/gh/dxcli/nyc-config)
 [![Greenkeeper](https://badges.greenkeeper.io/dxcli/nyc-config.svg)](https://greenkeeper.io/)
 [![Known Vulnerabilities](https://snyk.io/test/npm/@dxcli/nyc-config/badge.svg)](https://snyk.io/test/npm/@dxcli/nyc-config)
