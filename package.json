@@ -1,10 +1,10 @@
 {
-  "name": "@dxcli/dev-nyc-config",
+  "name": "@dxcli/nyc-config",
   "description": "nyc config for dxcli components",
   "version": "0.0.3",
   "author": "Jeff Dickey",
   "devDependencies": {
-    "@dxcli/dev-semantic-release": "^0.0.2",
+    "@dxcli/semantic-release": "^0.2.4",
     "husky": "^0.14.3"
   },
   "engines": {
@@ -14,9 +14,9 @@
     ".nycrc"
   ],
   "license": "MIT",
-  "repository": "dxcli/dev-nyc-config",
+  "repository": "dxcli/nyc-config",
   "scripts": {
-    "commitmsg": "dxcli-dev-commitmsg",
+    "commitmsg": "dxcli-commitlint",
     "test": "echo NO TESTS"
   }
 }
