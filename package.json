@@ -1,22 +1,35 @@
 {
-  "name": "@dxcli/nyc-config",
-  "description": "nyc config for dxcli components",
+  "name": "@anycli/nyc-config",
+  "description": "nyc config for anycli components",
   "version": "0.0.4",
   "author": "Jeff Dickey",
+  "bugs": "https://github.com/anycli/nyc-config/issues",
+  "dependencies": {},
   "devDependencies": {
-    "@dxcli/semantic-release": "^0.2.4",
-    "husky": "^0.14.3"
+    "@commitlint/cli": "^6.0.2",
+    "@commitlint/config-conventional": "^6.0.2",
+    "eslint": "^4.16.0",
+    "eslint-config-anycli": "^1.2.1",
+    "husky": "^0.14.3",
+    "nps": "^5.7.1",
+    "nps-utils": "^1.5.0"
   },
   "engines": {
     "node": ">=8.0.0"
   },
   "files": [
-    ".nycrc"
+    "/.nycrc"
+  ],
+  "homepage": "https://github.com/anycli/nyc-config",
+  "keywords": [
+    "anycli"
   ],
   "license": "MIT",
-  "repository": "dxcli/nyc-config",
+  "main": "src/index.js",
+  "repository": "anycli/nyc-config",
   "scripts": {
-    "commitmsg": "dxcli-commitlint",
-    "test": "echo NO TESTS"
+    "commitmsg": "commitlint -x @commitlint/config-conventional -e $GIT_PARAMS",
+    "precommit": "nps lint -l warn",
+    "test": "nps test -l warn"
   }
 }
