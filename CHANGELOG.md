@@ -1,3 +1,13 @@
+<a name="0.0.5"></a>
+## [0.0.5](https://github.com/anycli/nyc-config/compare/v0.0.4...v0.0.5) (2018-01-31)
+
+
+### Bug Fixes
+
+* anycli rename ([28accd8](https://github.com/anycli/nyc-config/commit/28accd8))
+* anycli rename ([7c180ba](https://github.com/anycli/nyc-config/commit/7c180ba))
+* anycli rename ([580cae0](https://github.com/anycli/nyc-config/commit/580cae0))
+
 <a name="0.0.4"></a>
 ## [0.0.4](https://github.com/dxcli/nyc-config/compare/a85badc7413ba9d310f9ecb48d91b84ec038cc96...v0.0.4) (2018-01-28)
 

@@ -1,7 +1,7 @@
 {
   "name": "@anycli/nyc-config",
   "description": "nyc config for anycli components",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": "Jeff Dickey",
   "bugs": "https://github.com/anycli/nyc-config/issues",
   "dependencies": {},
