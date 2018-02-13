@@ -6,8 +6,7 @@
   "bugs": "https://github.com/oclif/nyc-config/issues",
   "dependencies": {},
   "devDependencies": {
-    "eslint": "^4.16.0",
-    "eslint-config-oclif": "^1.2.1"
+    "jsonlint": "^1.6.2"
   },
   "engines": {
     "node": ">=8.0.0"
@@ -21,5 +20,8 @@
   ],
   "license": "MIT",
   "main": "src/index.js",
-  "repository": "oclif/nyc-config"
+  "repository": "oclif/nyc-config",
+  "scripts": {
+    "test": "jsonlint .nycrc"
+  }
 }
