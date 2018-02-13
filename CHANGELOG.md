@@ -1,3 +1,11 @@
+<a name="1.0.1"></a>
+## [1.0.1](https://github.com/oclif/nyc-config/compare/v1.0.0...v1.0.1) (2018-02-13)
+
+
+### Bug Fixes
+
+* oclif rename ([8572f02](https://github.com/oclif/nyc-config/commit/8572f02))
+
 <a name="0.0.7"></a>
 ## [0.0.7](https://github.com/oclif/nyc-config/compare/f449cce56e515573243d2f636eac51b44bc83dbf...v0.0.7) (2018-02-13)
 
