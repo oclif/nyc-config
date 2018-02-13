@@ -1,3 +1,12 @@
+<a name="0.0.7"></a>
+## [0.0.7](https://github.com/oclif/nyc-config/compare/f449cce56e515573243d2f636eac51b44bc83dbf...v0.0.7) (2018-02-13)
+
+
+### Bug Fixes
+
+* add jsonlint ([5aabd32](https://github.com/oclif/nyc-config/commit/5aabd32))
+* add jsonlint ([df89e0e](https://github.com/oclif/nyc-config/commit/df89e0e))
+
 <a name="0.0.6"></a>
 ## [0.0.6](https://github.com/oclif/nyc-config/compare/v0.0.5...v0.0.6) (2018-02-13)
 
