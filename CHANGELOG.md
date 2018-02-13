@@ -1,3 +1,11 @@
+<a name="0.0.6"></a>
+## [0.0.6](https://github.com/oclif/nyc-config/compare/v0.0.5...v0.0.6) (2018-02-13)
+
+
+### Bug Fixes
+
+* testing release ([758b9b9](https://github.com/oclif/nyc-config/commit/758b9b9))
+
 <a name="0.0.5"></a>
 ## [0.0.5](https://github.com/anycli/nyc-config/compare/v0.0.4...v0.0.5) (2018-01-31)
 
