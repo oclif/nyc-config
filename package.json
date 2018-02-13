@@ -1,18 +1,13 @@
 {
-  "name": "@anycli/nyc-config",
-  "description": "nyc config for anycli components",
+  "name": "@oclif/nyc-config",
+  "description": "nyc config for oclif components",
   "version": "0.0.5",
   "author": "Jeff Dickey",
-  "bugs": "https://github.com/anycli/nyc-config/issues",
+  "bugs": "https://github.com/oclif/nyc-config/issues",
   "dependencies": {},
   "devDependencies": {
-    "@commitlint/cli": "^6.0.2",
-    "@commitlint/config-conventional": "^6.0.2",
     "eslint": "^4.16.0",
-    "eslint-config-anycli": "^1.2.1",
-    "husky": "^0.14.3",
-    "nps": "^5.7.1",
-    "nps-utils": "^1.5.0"
+    "eslint-config-oclif": "^1.2.1"
   },
   "engines": {
     "node": ">=8.0.0"
@@ -20,16 +15,11 @@
   "files": [
     "/.nycrc"
   ],
-  "homepage": "https://github.com/anycli/nyc-config",
+  "homepage": "https://github.com/oclif/nyc-config",
   "keywords": [
-    "anycli"
+    "oclif"
   ],
   "license": "MIT",
   "main": "src/index.js",
-  "repository": "anycli/nyc-config",
-  "scripts": {
-    "commitmsg": "commitlint -x @commitlint/config-conventional -e $GIT_PARAMS",
-    "precommit": "nps lint -l warn",
-    "test": "nps test -l warn"
-  }
+  "repository": "oclif/nyc-config"
 }
