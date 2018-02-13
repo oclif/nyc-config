@@ -12,6 +12,7 @@ jobs:
             - v0-yarn-{{checksum ".circleci/config.yml"}}-{{ .Branch }}-{{checksum "yarn.lock"}}
             - v0-yarn-{{checksum ".circleci/config.yml"}}-{{ .Branch }}-
             - v0-yarn-{{checksum ".circleci/config.yml"}}-master-
+      - run: yarn
       - run: yarn test
       - store_test_results: &store_test_results
           path: ~/cli/reports
@@ -28,6 +29,7 @@ jobs:
     steps:
       - checkout
       - restore_cache: *restore_cache
+      - run: yarn
       - run: yarn test
       - store_test_results: *store_test_results
   release:
