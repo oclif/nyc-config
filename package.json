@@ -1,7 +1,7 @@
 {
   "name": "@oclif/nyc-config",
   "description": "nyc config for oclif components",
-  "version": "0.0.7",
+  "version": "1.0.0",
   "author": "Jeff Dickey",
   "bugs": "https://github.com/oclif/nyc-config/issues",
   "dependencies": {},
