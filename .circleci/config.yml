@@ -57,11 +57,11 @@ workflows:
       - node-latest
       - node-10
       - node-12
-      - release:
-          context: org-global
-          filters:
-            branches: {only: master}
-          requires:
-            - node-latest
-            - node-10
-            - node-12
+      # - release:
+      #     context: org-global
+      #     filters:
+      #       branches: {only: master}
+      #     requires:
+      #       - node-latest
+      #       - node-10
+      #       - node-12
