@@ -22,26 +22,14 @@ jobs:
             - ~/cli/node_modules
             - /usr/local/share/.cache/yarn
             - /usr/local/share/.config/yarn
-  node-10:
-    <<: *test
-    docker:
-      - image: node:10
-    steps:
-      - checkout
-      - restore_cache: *restore_cache
-      - run: yarn
-      - run: yarn test
-      - store_test_results: *store_test_results
   node-12:
     <<: *test
     docker:
       - image: node:12
-    steps:
-      - checkout
-      - restore_cache: *restore_cache
-      - run: yarn
-      - run: yarn test
-      - store_test_results: *store_test_results
+  node-10:
+    <<: *test
+    docker:
+      - image: node:10
   release:
     <<: *test
     steps:
